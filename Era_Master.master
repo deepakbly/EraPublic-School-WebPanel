@@ -1,0 +1,274 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Era_Master.master.cs" Inherits="Era_Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Era Public School</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+
+<!-- bootstrap-css -->
+<link href="wp-content/themes/theindianacademy/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<link rel="stylesheet" type="text/css" href="wp-content/themes/theindianacademy/css/jquery.bxslider.css"/>
+<link rel="stylesheet" type="text/css" href="wp-content/themes/theindianacademy/css/lightbox.css"/>
+<link rel="stylesheet" href="wp-content/themes/theindianacademy/css/animate.css"/>
+<!-- css -->
+<!--<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />-->
+    <link rel="stylesheet" href="wp-content/themes/theindianacademy/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="wp-content/themes/theindianacademy/css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->	
+<!-- font -->
+     <link rel="shortcut icon" href="wp-content/uploads/logo-1.jpg" type="image/x-icon">
+<style>
+
+</style>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+           <nav class="navbar navbar-default navbar-fixed-top navbar-home" id="mainNav"> 
+        <div class="container" style="    padding-right: 0;
+    padding-left: 0;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button id="btnMenu"  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>                    
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+                
+               
+                <a class="navbar-brand" href="index.html" style="    margin-left: -73px;">
+				                  <img class="logo" src="wp-content/uploads/logo-1.jpg" alt="logo"/>
+                   <div class="navbar-brand-name">
+                       <h4>Era Public School</h4>
+                       <p style="font-size: 15px;">Shahi, Bareilly, Uttar Pradesh</p>
+                      </div>
+                </a>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+          <!--  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+               
+                         	<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+            <ul id="menu-header-menu" class="nav navbar-nav navbar-right">
+
+<li ><a title="Co-Curricular" href="Home.aspx" class="nav-link">HOME</a></li>
+                <li><a title="Co-Curricular" href="About_Us.aspx" class="nav-link">ABOUT US</a></li>
+                <li><a title="Co-Curricular" href="Staff.aspx"class="nav-link">OUR STAFF</></a></li>
+                <li><a title="Co-Curricular" href="Topper.aspx" class="nav-link">OUR TOPPER</a></li>
+                <li><a title="Co-Curricular" href="infrastructure.aspx" class="nav-link">INFRASTRUCTURE</a></li>
+                <li><a title="Co-Curricular" href="Gallery.aspx" class="nav-link">GALLERY</a></li>
+                <li><a title="Co-Curricular" href="News.aspx"class="nav-link">NEWS/EVENT</a></li>
+                <li><a title="Co-Curricular" href="Contact.aspx" class="nav-link">CONTACT</a></li>
+                  <li><a title="Co-Curricular" href="Admin_Panel/Admin_Login.aspx" class="nav-link">LOGIN</a></li>
+              
+</ul>
+                        
+        </div>
+            </div>
+    </nav>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>c
+        <footer class="footer blue-overly" style="background-image: url(wp-content/uploads/9.jpg)">
+
+    <div class="container item-relative">
+    <div class="row">
+       <div class="col-sm-12 col-md-4">
+       <div class="row">
+		  
+<div class="col-sm-8 col-md-10 foot-about-weight">
+<div><h4 class="foot-about-title">Era Public School</h4>			<div class="textwidget"><p>We aspire to develop intellectual, creative, practical, moral, spiritual, physical and social potential of our students in a systematic and compassionate environment.</p>
+</div>
+		</div></div>
+		  
+          
+          </div>
+       </div>
+	   
+	   
+	   
+	   
+         <div class=" col-sm-6 col-md-4">
+            <div class="row flex">
+<div class="col-sm-6"><h4 class="foot-menu-title">Pages</h4>
+                <div class="menu-the-school-container">
+    <ul id="menu-the-school" class="menu">
+        <li id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-400"><a href="Home.aspx">Home</a></li>
+        <li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"><a href="About_Us.aspx">About Us</a></li>
+        <li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"><a href="Topper.aspx">Our Topper</a></li>
+        <li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a href="Staff.aspx">Our Staff</a></li>
+        <li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407"><a href="infrastructure.aspx">Infrastructure</a></li>
+        <li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408"><a href="Gallery.aspx">Gallery</a></li>
+        <li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a href="News.aspx">News/Event</a></li>
+        <li id="menu-item-399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-399"><a href="Contact.aspx">Contact</a></li>
+       </ul></div></div></div>
+</div>
+
+
+	   
+
+<div class="col-sm-6 col-md-4"><h4 class="foot-menu-title">Contact</h4>
+    <div class="menu-footer-last-menu-container">
+        <tr><i class="fa fa-home" aria-hidden="true" style=" margin-right: 7px;"></i><a href="#">Era Public School </a></tr><br />
+        <tr><a href="#" style="margin-left:20px;">Shahi, Bareilly, Uttar Pradesh</a></tr><br />
+        <tr><i class="fa fa-phone" aria-hidden="true" style=" margin-right: 7px;"></i><a href="#">+91 9319922096</a></tr><br />
+        <tr><i class="fa fa-envelope" aria-hidden="true" style=" margin-right: 7px;"></i><a href="#">mailidname@gmail.com</a></tr>
+    </div></div>
+       </div>
+    
+      <hr class="divider"/>
+      <div class="row footer-bottom">   
+         <p class="col-sm-6 text-right">© Web Innovation 2019</p>
+      </div>
+    </div>
+
+</footer>
+    </div>
+    </form><script src="wp-content/themes/theindianacademy/js/jquery-1.11.1.min.js"></script>
+<script src="wp-content/themes/theindianacademy/js/bootstrap.js"></script>
+<script type="text/javascript" src="wp-content/themes/theindianacademy/js/easing.js"></script>    
+<script type="text/javascript" src="wp-content/themes/theindianacademy/js/jquery.bxslider.js"></script>
+ <script type="text/javascript" src="wp-content/themes/theindianacademy/js/lightbox.min.js"></script>
+<script src="wp-content/themes/theindianacademy/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!--<script type="text/javascript" src="js/script.js"></script>-->
+<script>
+    if ($("#homepgtest").length) {
+
+        var itemDurVal = $(".home-carousel").data("duration"); /*get data-duration value of my carousel */
+
+        $.fn.carousel.Constructor.TRANSITION_DURATION = itemDurVal;
+        $(".home-carousel .item").css({
+            '-webkit-transition-duration': itemDurVal + 'ms',
+            '-moz-transition-duration': itemDurVal + 'ms',
+            'transition-duration': itemDurVal + 'ms'
+        });
+    }
+    //$(window).load(function() {
+    //     // + any other carousel related stuff that has to wait for the images to complete loading
+    //     $('.carousel').carousel()
+    //})
+
+    $("#btnMenu").click(function () {
+        $("body").toggleClass("fixed");
+    });
+
+
+
+    var lastScrollTop = 0;
+    $(window).scroll(function (event) {
+        var currentScrollTop = $(this).scrollTop();
+        if (currentScrollTop > lastScrollTop) {
+            // downscroll code
+            $("#mainNav").addClass("sticky");
+            $("#menu2").addClass("sticky1");
+        } else {
+            // upscroll code
+            $("#mainNav").removeClass("sticky");
+            $("#menu2").removeClass("sticky1");
+        }
+        lastScrollTop = currentScrollTop;
+    });
+
+
+    $(document).ready(function () {
+
+
+
+
+
+        if ($(document).width() > 767) {
+            var x = $(".event-detail-photo-slider").width() / 3 - 15;
+        }
+        else if ($(document).width() < 767 && $(document).width() > 420) {
+            var x = $(".event-detail-photo-slider").width() / 2 - 15;
+        }
+
+        else { var x = $(".event-detail-photo-slider").width(); }
+
+        var sliderProcess = $('.bxslider-event-photo').bxSlider({
+            maxSlides: 3,
+            minSlides: 1,
+            slideWidth: x,
+            slideMargin: 15,
+            auto: true,
+            pager: false,
+            stopAutoOnClick: true,
+            autoHover: true,
+            nextText: '<i class="fa fa-angle-right"></i>',
+            prevText: '<i class="fa fa-angle-left"></i>',
+            speed: 800
+        });
+        $('.event-detail-photo-slider  a.bx-prev, .event-detail-photo-slider a.bx-next').on('mouseleave touchend', function (e) {
+            sliderProcess.startAuto();
+        });
+
+
+        var sliderVideo = $('.bxslider-event-video').bxSlider({
+            auto: true,
+            pager: false,
+            stopAutoOnClick: true,
+            autoHover: true,
+            nextText: '<i class="fa fa-angle-right"></i>',
+            prevText: '<i class="fa fa-angle-left"></i>'
+        });
+        $('.event-detail-video-slider  a.bx-prev, .event-detail-video-slider a.bx-next').on('mouseleave touchend', function (e) {
+            sliderVideo.startAuto();
+        });
+
+
+    });
+
+
+
+    //scroll menu navigation
+
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $(function () {
+        $('a.page-scroll').bind('click', function (event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 100
+            }, 1200, 'easeInOutCubic');
+            event.preventDefault();
+        });
+    });
+
+    $('body').scrollspy({
+        target: '.scroll-menu',
+        offset: 170
+    })
+
+
+
+
+    $(function () {
+        $('.month-dropdown-button a.page-scroll1').bind('click', function (event) {
+            var $anchor = $(this);
+            var hash = this.hash;
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 250
+            }, 1200, 'easeInOutCubic');
+            event.preventDefault();
+            window.location.hash = hash;
+        });
+    });
+
+
+</script>
+</body>
+</html>
